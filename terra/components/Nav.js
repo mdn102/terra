@@ -15,11 +15,10 @@ const nav = () => {
         <Row>
           <Col>
             <Navbar bg="light" expand="lg">
-              <Navbar.Brand href="#home"> TERRA</Navbar.Brand>
+              <Navbar.Brand href="/"> TERRA</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
-                    <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
                     <Link href="/about" passHref><Nav.Link>About</Nav.Link></Link>
                     <NavDropdown title="Places" id="basic-nav-dropdown">
                       <Link href="/beach" passHref><NavDropdown.Item>Beach</NavDropdown.Item></Link>

@@ -7,7 +7,7 @@
 - As a user, I want to be able to click in the picture to collect trash ,drag and drop into other picture as recyle bin.
  
 ## Wireframes: 
-- TBD 
+- https://docs.google.com/document/d/1xvsdICdecTuwRMJwcfujKAis41UHhEBq5c62_sykTsg/edit?usp=sharing 
 
 ## Tech Stack
 - React

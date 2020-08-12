@@ -1,5 +1,5 @@
 # TERRA 
-### (GA hackathon)
+(GA hackathon)
 
 ## Description
 - Social media web app to teach the kid how to collect trash in their environment 

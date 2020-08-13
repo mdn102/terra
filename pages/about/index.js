@@ -64,7 +64,7 @@ const aboutPage = () => {
           .aboutImg {
             width: 400px;
             height: 400px;
-            margin: 10px;
+            margin: 30px;
           }
           
           .member {

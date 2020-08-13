@@ -76,10 +76,11 @@ const userInterface = () => {
           display: flex;
           align-items: center;
           justify-content: center;
-          border: 20px solid black;
+          border: 20px solid rgb(88, 80, 73);
           border-radius: 50px;
           margin-left: 100px;
           margin-right: 100px;
+          background-color: black;
         }
         .right-btn-container {
           display: flex;

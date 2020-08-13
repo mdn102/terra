@@ -5,7 +5,7 @@ import Router from 'next/router';
 const userInterface = () => {
   return (
     <div className="center">
-      <h2>Where would you like to go?</h2>
+      <h2 className="jumbo-title">Where would you like to go?</h2>
       <div className="layout-container">
         <Row>
           <Col>
@@ -26,21 +26,9 @@ const userInterface = () => {
           </Col>
           <Col>
               <div className="jumbo">
-                <Jumbotron>
                   <div className="jumbo-content">
-                    <h1>Welcome to Terra</h1>
-                    <p>
-                      This is a simple environmental application, built to help
-                      educate the youth
-                      <br />
-                      about the importance of how humans can negatively impact our
-                      planet.
-                    </p>
-                    <p>
-                      <Button variant="primary">Learn more</Button>
-                    </p>
+                    <img className="main-img" src="/img/FullBeachScene.png" alt="full beach scene" />
                   </div>
-                </Jumbotron>
               </div>
           </Col>
           <Col>
@@ -65,6 +53,9 @@ const userInterface = () => {
         .center {
           text-align: center;
         }
+        .jumbo-title {
+
+        }
         .layout-container {
           min-width: 900px;
           max-width: 1920px;
@@ -85,7 +76,8 @@ const userInterface = () => {
           display: flex;
           align-items: center;
           justify-content: center;
-          border: 2px solid black;
+          border: 20px solid black;
+          border-radius: 50px;
           margin-left: 100px;
           margin-right: 100px;
         }
@@ -100,6 +92,10 @@ const userInterface = () => {
           padding: 0;
           margin: 0;
           border-radius: 15px;
+        }
+        .main-img {
+          max-width: 100%;
+          max-height: 100%;
         }
       `}</style>
     </div>

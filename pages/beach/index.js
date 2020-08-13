@@ -2,12 +2,15 @@ import React from 'react'
 import Nav from '../../components/Nav'
 import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap';
 import Router from 'next/router';
+import Carousel from 'react-bootstrap/Carousel';
+import Link from 'next/link';
 
 const beachPage = () => {
   return (
     <div className="center">
       <br />
       <h2>Where would you like to go?</h2>
+      <h2><Link href="/" passHref><a>Home</a></Link></h2>
       <br />
       <div className="layout-container">
         <Row>
@@ -31,16 +34,44 @@ const beachPage = () => {
             <Jumbotron>
               <div className="jumbo">
                 <div className="jumbo-content">
-                  <h1>Welcome to Terra_Beach</h1>
-                  <p>
-                    This is the Beach
-                    <br />
-                    about the importance of how humans can negatively impact our
-                    planet.
-                  </p>
-                  <p>
-                    <Button variant="primary">Learn more</Button>
-                  </p>
+                  <h1>You are on the Beach</h1>
+                  <Carousel>
+                    <Carousel.Item>
+                      <img
+                        className="d-block w-600"
+                        src="https://picsum.photos/600/600"
+                        alt="First slide"
+                      />
+                      <Carousel.Caption>
+                        <h3>First slide label</h3>
+                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block w-600"
+                        src="https://picsum.photos/600/600"
+                        alt="Third slide"
+                      />
+
+                      <Carousel.Caption>
+                        <h3>Second slide label</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                    <Carousel.Item>
+                      <img
+                        className="d-block w-600"
+                        src="https://picsum.photos/600/600"
+                        alt="Third slide"
+                      />
+
+                      <Carousel.Caption>
+                        <h3>Third slide label</h3>
+                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                      </Carousel.Caption>
+                    </Carousel.Item>
+                  </Carousel>
                 </div>
               </div>
             </Jumbotron>
@@ -73,8 +104,12 @@ const beachPage = () => {
         }
         .jumbo-content {
           position: relative;
-          right: 135px;
-          top: 300px;
+          left: 100px;
+          top: 20px;
+          background-color: black;
+          heigh: 700px;
+          width: 600px;
+          color: white;
         }
         .layout-container {
           display: flex;

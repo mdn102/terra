@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap';
 import Router from 'next/router';
+import Link from 'next/link';
 
 const userInterface = () => {
   const [imageLink, setImageLink] = useState('/img/earth.jpg');
@@ -65,6 +66,7 @@ const userInterface = () => {
     <div>
       <div className="center">
         <h2 className="jumbo-title">Where would you like to go?</h2>
+        <h2><Link href="/" passHref><a>Home</a></Link></h2>
         <div className="layout-container">
           <Row>
             <Col>

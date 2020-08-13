@@ -71,7 +71,7 @@ const aboutPage = () => {
             width: 400px;
             height: 500px;
             text-align: center;
-            margin: 40px;
+            margin: 50px;
           }
         `}</style>
       </div>

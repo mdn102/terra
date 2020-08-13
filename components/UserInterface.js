@@ -66,7 +66,7 @@ const userInterface = () => {
     <div>
       <div className="center">
         <h2 className="jumbo-title">Where would you like to go?</h2>
-        <h2><Link href="/" passHref><a>Home</a></Link></h2>
+        <h5><Link href="/" passHref><a>Home</a></Link></h5>
         <div className="layout-container">
           <Row>
             <Col>

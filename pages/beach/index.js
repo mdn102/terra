@@ -10,7 +10,7 @@ const beachPage = () => {
     <div className="center">
       <br />
       <h2>Where would you like to go?</h2>
-      <h2><Link href="/" passHref><a>Home</a></Link></h2>
+      <h5><Link href="/" passHref><a>Home</a></Link></h5>
       <br />
       <div className="layout-container">
         <Row>

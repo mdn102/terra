@@ -9,8 +9,8 @@ const aboutPage = () => {
     <div>
       <Nav />
       <div className="about">
-        <h1 className="aboutTitle mb-5">About Team</h1>
-        <h2><Link href="/" passHref><a>Home</a></Link></h2>
+        <h1 className="aboutTitle">About Team</h1>
+        <h5><Link href="/" passHref><a>Home</a></Link></h5>
         <div className="aboutPage">
           <div className="member">
             <h3>Shae [Naomi Benham] </h3>
@@ -47,7 +47,7 @@ const aboutPage = () => {
           .about {
             width: 100%;
             text-align: center;
-            margin-bottom: 50px;
+            // margin-bottom: 30px;
             margin: 0 auto;
           }
           

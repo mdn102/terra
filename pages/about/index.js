@@ -13,7 +13,7 @@ const aboutPage = () => {
         <h5><Link href="/" passHref><a>Home</a></Link></h5>
         <div className="aboutPage">
           <div className="member">
-            <h3>Shae [Naomi Benham] </h3>
+            <h3> Naomi Shae Benham </h3>
             <img className="aboutImg" src="https://ca.slack-edge.com/T0351JZQ0-U013U9V5LAZ-58229599c17f-512" />
             <h5>Designer</h5>
           </div>

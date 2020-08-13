@@ -194,10 +194,6 @@ const userInterface = () => {
 
           .button-set {
             margin: auto;
-<<<<<<< HEAD
-            margin-top: 20px;
-=======
->>>>>>> d52c3c65cb2ba9cbd5f2c53460e316d9b89a907f
             max-width: 600px;
           }
         `}</style>

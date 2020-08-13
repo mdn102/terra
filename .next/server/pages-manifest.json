@@ -2,9 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/next/dist/pages/_error": "pages/next/dist/pages/_error.js",
   "/": "pages/index.js",
-  "/about": "pages/about.js",
-  "/donate": "pages/donate.js",
-  "/resources": "pages/resources.js"
+  "/about": "pages/about.js"
 }

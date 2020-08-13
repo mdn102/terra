@@ -55,6 +55,7 @@ const aboutPage = () => {
           <style jsx>{`
             @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+            
             * {
               font-family: 'Montserrat', sans-serif;
               background-color: #95ac98;

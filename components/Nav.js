@@ -14,7 +14,7 @@ const nav = () => {
       <Container fluid>
         <Row>
           <Col>
-            <Navbar bg="light" expand="lg">
+            <Navbar expand="lg">
               <Navbar.Brand href="/"><img src="/img/TerraLogo.png" width="100px" height="70px" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
@@ -29,6 +29,10 @@ const nav = () => {
         </Row>
       </Container>
       <style jsx>{`
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+        * {
+          font-family: 'Montserrat', sans-serif;
+        }
         .navbar {
           background-color: #f8f7ed;
         }

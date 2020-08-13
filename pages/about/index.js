@@ -47,7 +47,6 @@ const aboutPage = () => {
           .about {
             width: 100%;
             text-align: center;
-            // margin-bottom: 30px;
             margin: 0 auto;
           }
           
@@ -72,7 +71,7 @@ const aboutPage = () => {
             width: 400px;
             height: 500px;
             text-align: center;
-            margin: 30px;
+            margin: 40px;
           }
         `}</style>
       </div>

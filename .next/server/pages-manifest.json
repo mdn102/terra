@@ -2,11 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/jungle": "pages/jungle.js",
-  "/beach": "pages/beach.js",
-  "/city": "pages/city.js",
-  "/forest": "pages/forest.js",
-  "/ocean": "pages/ocean.js",
-  "/desert": "pages/desert.js"
+  "/": "pages/index.js"
 }

@@ -1,13 +1,14 @@
 # TERRA 
 
 ## Description
-- Social media web app to teach the kid how to collect trash in their environment 
+- This web app is a simple environmental application, built to help educate the youth about the importance of how humans can negatively impact our planet.
 
 ## User Experience:
-- As a user, I want to be able to click in the picture to collect trash ,drag and drop into other picture as recyle bin.
+- As a user, I want to be able to click in the picture to show the information for my learning. 
  
 ## Wireframes: 
 - https://docs.google.com/document/d/1xvsdICdecTuwRMJwcfujKAis41UHhEBq5c62_sykTsg/edit?usp=sharing 
+- https://drive.google.com/drive/folders/19WKdw65OWLQqkUb2lX2r6kDpmFJHCA7-?usp=sharing
 
 ## Tech Stack
 - React

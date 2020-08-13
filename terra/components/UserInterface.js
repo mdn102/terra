@@ -54,7 +54,6 @@ const userInterface = () => {
           text-align: center;
         }
         .jumbo-title {
-
         }
         .layout-container {
           min-width: 900px;

@@ -1,8 +1,38 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col, Jumbotron, Button } from 'react-bootstrap';
 import Router from 'next/router';
 
 const userInterface = () => {
+  const [imageLink, setImageLink] = useState("")
+  const imageArray = [
+    "/img/beach-00.png",
+    "/img/beach-01.png",
+    "/img/shark-00.png",
+    "/img/shark-01.png",
+    "/img/shark-02.png",
+    "/img/seastar-00.png",
+    "/img/seastar-01.png",
+    "/img/seastar-02.png",
+    "/img/crab-00.png",
+    "/img/crab-01.png",
+    "/img/crab-02.png",
+    "/img/bottle-00.png",
+    "/img/bottle-01.png",
+    "/img/bottle-02.png",
+    "/img/seaturtle-00.png",
+    "/img/seaturtle-01.png",
+    "/img/seaturtle-02.png",
+    "/img/seaturtle-03.png",
+  ]
+  let currentIndex = 0
+
+  function imageClick(e) {
+    e.preventDefault()
+    setImageLink(imageArray[currentIndex])
+    currentIndex += 1
+    console.log(currentIndex)
+  }
+
   return (
     <div className="center">
       <h2 className="jumbo-title">Where would you like to go?</h2>
@@ -11,7 +41,7 @@ const userInterface = () => {
           <Col>
             <div className="left-btn-container">
               <div>
-                <button className="img-btn" onClick={() => Router.push('/beach')}><img src="/img/beach/beach.png" alt="beach image"/></button>
+                <button className="img-btn" onClick={(e) => imageClick(e)}><img src="/img/beach/beach.png" alt="beach image"/></button>
                 <p>Beach</p>
               </div>
               <div>
@@ -27,7 +57,7 @@ const userInterface = () => {
           <Col>
               <div className="jumbo">
                   <div className="jumbo-content">
-                    <img className="main-img" src="/img/FullBeachScene.png" alt="full beach scene" />
+                    <img className="main-img" src={`${imageLink}`} alt="full beach scene" />
                   </div>
               </div>
           </Col>

@@ -15,18 +15,18 @@ const cityPage = () => {
       <div className="layout-container">
         <Row>
           <Col>
-            <div>
-              <button onClick={() => Router.push('/beach')}><img src="https://picsum.photos/250/140" /></button>
+          <div>
+              <button onClick={() => Router.push('/beach')}><img src="/img/beach/beach.png" /></button>
               <p>Beach</p>
             </div>
             <br /><br /><br /><br /><br />
             <div>
-              <button onClick={() => Router.push('/city')}><img src="https://picsum.photos/250/140" /></button>
+              <button onClick={() => Router.push('/city')}><img src="/img/city/city.png" /></button>
               <p>City</p>
             </div>
             <br /><br /><br /><br /><br />
             <div>
-              <button onClick={() => Router.push('/desert')}><img src="https://picsum.photos/250/140" /></button>
+              <button onClick={() => Router.push('/desert')}><img src="/img/desert/desert.png" /></button>
               <p>Desert</p>
             </div>
           </Col>
@@ -77,18 +77,18 @@ const cityPage = () => {
             </Jumbotron>
           </Col>
           <Col>
-            <div>
-              <button onClick={() => Router.push('/jungle')}><img src="https://picsum.photos/250/140" /></button>
+          <div>
+              <button onClick={() => Router.push('/jungle')}><img src="/img/jungle/jungle.png" /></button>
               <p>Jungle</p>
             </div>
             <br /><br /><br /><br /><br />
             <div>
-              <button onClick={() => Router.push('/ocean')}><img src="https://picsum.photos/250/140" /></button>
+              <button onClick={() => Router.push('/ocean')}><img src="/img/ocean/ocean.png" /></button>
               <p>Ocean</p>
             </div>
             <br /><br /><br /><br /><br />
             <div>
-              <button onClick={() => Router.push('/forest')}><img src="https://picsum.photos/250/140" /></button>
+              <button onClick={() => Router.push('/forest')}><img src="/img/forest/forest.png" /></button>
               <p>Forest</p>
             </div>
           </Col>

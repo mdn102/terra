@@ -9,21 +9,20 @@ const aboutPage = () => {
     <div>
       <Nav />
       <div className="about">
+        <br />
         <h1 className="logo-title">About Terra</h1>
         <br />
-        <p>
+        <p className="about-content">
         We are a non-profit media company that provides education in the form <br />
         of interactive info-graph stories to fulfill our mission to incite a deep <br />
         appreciation and love for planet Earth in the future leaders of our world: children!
         </p>
         <br />
-        <h1 className="aboutTitle">Meet The Team</h1>
         <br />
-        <h5><Link href="/" passHref><a>Home</a></Link></h5>
-        <br />
+        <h1 className="logo-title">Meet The Team</h1>
         <div className="aboutPage">
           <div className="member">
-            <h3> Naomi Shae Benham </h3>
+            <h3>Naomi Shae Benham</h3>
             <img className="aboutImg" src="https://ca.slack-edge.com/T0351JZQ0-U013U9V5LAZ-58229599c17f-512" />
             <h5>Designer</h5>
           </div>
@@ -53,39 +52,50 @@ const aboutPage = () => {
             <h5>Developer</h5>
           </div>
         </div>
-        <style jsx>{`
-          .about {
-            width: 100%;
-            text-align: center;
-            margin: 0 auto;
-          }
-          
-          .aboutPage {
-            display: flex;
-            text-align: center;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: center;
-            width: 100%;
-            height: 100%;
-            margin: 0 auto;
-          }
-          
-          .aboutImg {
-            width: 400px;
-            height: 400px;
-            margin: 30px;
-          }
-          
-          .member {
-            width: 400px;
-            height: 500px;
-            text-align: center;
-            margin: 50px;
-          }
-        `}</style>
+          <style jsx>{`
+            @import url('https://fonts.googleapis.com/css2?family=Fugaz+One&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+            * {
+              font-family: 'Montserrat', sans-serif;
+              background-color: #95ac98;
+            }
+            .about {
+              width: 100%;
+              text-align: center;
+              margin: 0 auto;
+            }
+            .about-content {
+              font-family: 'Montserrat', sans-serif;
+            }
+            .logo-title {
+              font-family: 'Fugaz One', cursive;
+            }
+            .aboutPage {
+              display: flex;
+              text-align: center;
+              flex-direction: row;
+              flex-wrap: wrap;
+              justify-content: center;
+              width: 100%;
+              height: 100%;
+              margin: 0 auto;
+            }
+            
+            .aboutImg {
+              width: 400px;
+              height: 400px;
+              margin: 30px;
+            }
+            
+            .member {
+              width: 400px;
+              height: 500px;
+              text-align: center;
+              margin: 50px;
+            }
+          `}</style>
+        </div>
       </div>
-    </div>
   )
 }
 

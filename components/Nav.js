@@ -10,12 +10,12 @@ import Link from 'next/link';
 
 const nav = () => {
   return (
-    <div>
+    <div className="navbar">
       <Container fluid>
         <Row>
           <Col>
             <Navbar bg="light" expand="lg">
-            <Navbar.Brand href="/"><img src="/img/TerraLogo.png" /></Navbar.Brand>
+              <Navbar.Brand href="/"><img src="/img/TerraLogo.png" width="100px" height="70px" /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
@@ -29,17 +29,9 @@ const nav = () => {
         </Row>
       </Container>
       <style jsx>{`
-
-        .nav {
+        .navbar {
           background-color: #f8f7ed;
-          font: Fugaz One;
-        } 
-
-        img {
-          with: 3em;
-          height: 3em;
         }
-
       `}</style>
     </div>
   );

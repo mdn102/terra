@@ -9,8 +9,18 @@ const aboutPage = () => {
     <div>
       <Nav />
       <div className="about">
-        <h1 className="aboutTitle">About Team</h1>
+        <h1 className="logo-title">About Terra</h1>
+        <br />
+        <p>
+        We are a non-profit media company that provides education in the form <br />
+        of interactive info-graph stories to fulfill our mission to incite a deep <br />
+        appreciation and love for planet Earth in the future leaders of our world: children!
+        </p>
+        <br />
+        <h1 className="aboutTitle">Meet The Team</h1>
+        <br />
         <h5><Link href="/" passHref><a>Home</a></Link></h5>
+        <br />
         <div className="aboutPage">
           <div className="member">
             <h3>Shae [Naomi Benham] </h3>

@@ -21,7 +21,7 @@ const nav = () => {
                   <Nav className="mr-auto">
                     <Link href="/about" passHref><Nav.Link>About</Nav.Link></Link>
                     <Link href="/resources" passHref><Nav.Link>Resources</Nav.Link></Link>
-                    <Link href="/about" passHref><Nav.Link>Donate</Nav.Link></Link>
+                    <Link href="/donate" passHref><Nav.Link>Donate</Nav.Link></Link>
                   </Nav>
                 </Navbar.Collapse>
             </Navbar>

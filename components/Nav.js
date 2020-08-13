@@ -22,8 +22,11 @@ const nav = () => {
                     <Link href="/about" passHref><Nav.Link>About</Nav.Link></Link>
                     <NavDropdown title="Places" id="basic-nav-dropdown">
                       <Link href="/beach" passHref><NavDropdown.Item>Beach</NavDropdown.Item></Link>
-                      <Link href="/mountains" passHref><NavDropdown.Item>Mountains</NavDropdown.Item></Link>
                       <Link href="/city" passHref><NavDropdown.Item>City</NavDropdown.Item></Link>
+                      <Link href="/desert" passHref><NavDropdown.Item>Desert</NavDropdown.Item></Link>
+                      <Link href="/jungle" passHref><NavDropdown.Item>Jungle</NavDropdown.Item></Link>
+                      <Link href="/ocean" passHref><NavDropdown.Item>Ocean</NavDropdown.Item></Link>
+                      <Link href="/forest" passHref><NavDropdown.Item>Forest</NavDropdown.Item></Link>
                       <NavDropdown.Divider />
                       <NavDropdown.Item href="#action/3.4">How to help</NavDropdown.Item>
                     </NavDropdown>
